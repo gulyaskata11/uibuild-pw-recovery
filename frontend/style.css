@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+}
+  
+/* --- end of CSS reset --- */
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 36px;
+    color: #006837;
+    width: 520px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.text-box {
+    font-size: 16px;
+    color: #467745;
+    background-color: #f9c582;
+    width: 520px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.italic {
+    font-style: italic;
+}
+
+input {
+    font-size: 16px;
+    width: 480px;
+    height: 64px;
+    color: #98a991;
+    padding-left: 15px;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+input::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #98a991;
+}
+
+button {
+    width: 120px;
+    height: 120px;
+    background-color: #f9c582;
+    border-radius: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color: #006837;
+}
